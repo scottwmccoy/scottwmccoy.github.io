@@ -15,3 +15,7 @@ node_modules/
 output/playwright/
 test-results/
 vendor
+
+# Large source photo originals kept out of the repo; web-sized copies are committed instead
+assets/img/Teaching/IMG_*
+assets/img/IMG_0141.JPG
