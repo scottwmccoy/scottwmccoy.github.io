@@ -1,0 +1,535 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Debris-Flow Mechanics and Steepland Sediment Transport | Scott McCoy - Natural Hazards and Earth Surface Dynamics Lab </title> <meta name="author" content="Scott W. McCoy"> <meta name="description" content="How debris flows start, grow, and exert force, from field sensors to predictive theory."> <meta name="keywords" content="Scott McCoy, geomorphology, debris flows, landslides, wildfire, natural hazards, geological engineering, University of Nevada Reno"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=f0b101217084a90093badfe99ff9a7d1"> <link rel="canonical" href="https://scottwmccoy.github.io/projects/debris-flow-mechanics/"> <script src="/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Scott McCoy - Natural Hazards and Earth Surface Dynamics Lab </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">About </a> </li> <li class="nav-item "> <a class="nav-link" href="/people/">People </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">Projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">Publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">Teaching </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Debris-Flow Mechanics and Steepland Sediment Transport</h1> <p class="post-description">How debris flows start, grow, and exert force, from field sensors to predictive theory.</p> </header> <article> <p>Debris flows are fast, water-charged slurries of sediment and rock, and among the most destructive processes in steep terrain, yet many of their basic mechanics long resisted direct measurement. Our foundational work established how debris flows initiate from rainfall runoff, in contrast to the prevailing view that they begin as the liquefaction of shallow landslides; how they entrain sediment from the bed to grow as they travel; and how large the forces are that they exert on the channel below.</p> <p>Through sustained field monitoring (notably at the Chalk Cliffs natural debris-flow laboratory in Colorado) and a set of in-situ sensors we designed and built ourselves, we captured some of the first direct measurements of debris-flow dynamics, basal forces, and erosion in nature, quantities long thought too difficult to record. <a class="citation" href="#mccoy_evolution_2010">(McCoy et al., 2010; McCoy et al., 2012; McCoy et al., 2013; Kean et al., 2015; Coe et al., 2010)</a></p> <p>These results remain widely cited foundations of debris-flow science, and they underpin much of the applied, post-fire hazard work our group pursues today. A continuing thread extends the same mechanistic lens to steepland sediment transport more broadly: the thresholds, rates, and channel forms that govern how mass moves through mountain landscapes. <a class="citation" href="#feehan_quantifying_2023">(Feehan et al., 2023; McCoy, 2015; Ring, 2024)</a></p> </article> <h2>References</h2> <div class="publications"> <h2 class="bibliography">2024</h2> <ol class="bibliography"><li> <div class="row"> <div class="col col-sm-2 abbr"> </div> <div id="ring_hydraulic_2024" class="col-sm-8"> <div class="title">Hydraulic Geometry of Debris-Flow Channel Networks With Implications for Discharge Estimation</div> <div class="author"> Caleb M. Ring </div> <div class="periodical"> <em>University of Nevada, Reno</em>, 2024 </div> <div class="periodical"> Publication Title: ProQuest Dissertations and Theses </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> </div> <div class="abstract hidden"> <p>In steep landscapes, debris flows scour much of the upper channel network and significantly alter longitudinal profile form at drainage areas less than 1 to 5 km². The degree to which debris-flow processes alter other aspects of the upper channel network is largely unexplored. Here we compile a large data set of bedrock channel cross-sections following debris-flow scour to constrain the downstream hydraulic geometry in the upper channel network. We find that bedrock channel networks scoured by debris flows display systematic power-law relationships between discharge Q and channel width w ~ Q0.26-0.35 and mean depth d ~ Q0.40-0.46 and hence display hydraulic geometry akin to that found further downstream in bedrock and alluvial rivers. Observed w/d ratios are narrowly distributed (6.0+/- 2.5) despite w and d not having identical scaling with Q. However, the scaling observed when substituting upstream drainage area A for Q depends on initiation mechanism and network structure. For branching networks scoured by debris flows initiated from rainfall runoff, we find w ~ A0.31-0.33 as found in many bedrock rivers, whereas for debris flows initiated from failure of shallow landslides we find w ~ A0.08-0.16. In all cases, debris-flow channel widths are 2-10 times wider at A=105 km2 than that found in fluvial channels, highlighting that when present, debris flows are systematically larger at a given drainage area than rivers. If channel networks are nonbranching, we find almost no dependence of w on drainage area, w ~ A0.01-0.05. We use these relationships in combination with simple empirical velocity relationships and a constant w/d ratio to develop debris-flow discharge estimation techniques that require only measurements of scoured channel width or drainage area. We find good agreement when tested against debris-flow monitoring sites around the world. Hydraulic geometry relationships specific to bedrock channel networks scoured by debris flows should aid in developing more accurate models of landscape evolution that incorporate debris-flow processes, as well as provide first-order guidance on expected discharges emanating from these networks.</p> </div> </div> </div> </li></ol> <h2 class="bibliography">2023</h2> <ol class="bibliography"><li> <div class="row"> <div class="col col-sm-2 abbr"> </div> <div id="feehan_quantifying_2023" class="col-sm-8"> <div class="title">Quantifying Variability of Incipient-Motion Thresholds in Gravel-Bedded Rivers Using a Grain-Scale Force-Balance Model</div> <div class="author"> Scott A. Feehan, <em>Scott W. McCoy</em>, Joel S. Scheingross, and <span class="more-authors" title="click to view 1 more author" onclick=" var element=this; element.setAttribute('title', ''); var more_authors_text=element.textContent == '1 more author' ? 'Michael H. Gardner' : '1 more author'; var cursorPosition=0; var textAdder=setInterval(function(){ element.innerHTML = more_authors_text.substring(0, cursorPosition + 1); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">1 more author</span> </div> <div class="periodical"> <em>Journal of Geophysical Research: Earth Surface</em>, 2023 </div> <div class="periodical"> _eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2023JF007162 </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="https://doi.org/10.1029/2023JF007162" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a> </div> <div class="abstract hidden"> <p>Predicting thresholds of sediment motion is critical for a range of applications involving sediment transport. However, thresholds for sediment motion can vary over an order of magnitude for a single characteristic flow and bed configuration. Lacking simple ways to incorporate this variability, many assume thresholds are constant for rough, turbulent flow. Here, we quantify variability of incipient-motion thresholds based on a commonly used grain-scale force-balance model, with model parameter distributions determined from published experiments. We show that variability in the threshold of motion within the 2D force-balance model occurs predominantly due to variability in the lift coefficient and grain protrusion, and secondarily due to drag coefficient variability. For a known grain size, the mean threshold of motion, and variability about the mean, can be predicted from a family of power laws. These power laws can be altered with site-specific parameter distributions, allowing for site-specific application to well-studied reaches and other planets. Using compiled flume and field data we show that constraining force-balance parameter distributions with independent data results in narrower distributions of the predicted threshold of motion, consistent with constrained flume experiments. This analysis highlights that while the threshold of sediment motion is variable, the magnitude of variability is predictable within the force-balance model based on site-specific physical constraints of local flow and bed conditions.</p> </div> </div> </div> </li></ol> <h2 class="bibliography">2015</h2> <ol class="bibliography"> <li> <div class="row"> <div class="col col-sm-2 abbr"> </div> <div id="kean_estimating_2015" class="col-sm-8"> <div class="title">Estimating rates of debris flow entrainment from ground vibrations</div> <div class="author"> J. W. Kean, J. A. Coe, V. Coviello, and <span class="more-authors" title="click to view 3 more authors" onclick=" var element=this; element.setAttribute('title', ''); var more_authors_text=element.textContent == '3 more authors' ? 'J. B. Smith, S. W. McCoy, M. Arattano' : '3 more authors'; var cursorPosition=0; var textAdder=setInterval(function(){ element.innerHTML = more_authors_text.substring(0, cursorPosition + 1); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">3 more authors</span> </div> <div class="periodical"> <em>Geophysical Research Letters</em>, 2015 </div> <div class="periodical"> </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="https://doi.org/10.1002/2015GL064811" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a> </div> <div class="abstract hidden"> <p>Debris flows generate seismic waves as they travel downslope and can become more dangerous as they entrain sediment along their path. We present field observations that show a systematic relation between the magnitude of seismic waves and the amount of erodible sediment beneath the flow. Specifically, we observe that a debris flow traveling along a channel filled initially with sediment 0.34 m thick generates about 2 orders of magnitude less spectral power than a similar-sized flow over the same channel without sediment fill. We adapt a model from fluvial seismology to explain this observation and then invert it to estimate the level of bed sediment (and rate of entrainment) beneath a passing series of surges. Our estimates compare favorably with previous direct measurements of entrainment rates at the site, suggesting the approach may be a new indirect way to obtain rare field constraints needed to test models of debris flow entrainment.</p> </div> </div> </div> </li> <li> <div class="row"> <div class="col col-sm-2 abbr"> </div> <div id="mccoy_research_2015" class="col-sm-8"> <div class="title">RESEARCH FOCUS: Infrequent, large-magnitude debris flows are important agents of landscape change</div> <div class="author"> Scott W McCoy </div> <div class="periodical"> <em>Geology</em>, May 2015 </div> <div class="periodical"> </div> <div class="links"> <a href="https://doi.org/10.1130/focus052015.1" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a> </div> </div> </div> </li> </ol> <h2 class="bibliography">2013</h2> <ol class="bibliography"><li> <div class="row"> <div class="col col-sm-2 abbr"> </div> <div id="mccoy_field_2013" class="col-sm-8"> <div class="title">Field measurement of basal forces generated by erosive debris flows</div> <div class="author"> <em>S. W. McCoy</em>, G. E. Tucker, J. W. Kean, and <span class="more-authors" title="click to view 1 more author" onclick=" var element=this; element.setAttribute('title', ''); var more_authors_text=element.textContent == '1 more author' ? 'J. A. Coe' : '1 more author'; var cursorPosition=0; var textAdder=setInterval(function(){ element.innerHTML = more_authors_text.substring(0, cursorPosition + 1); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">1 more author</span> </div> <div class="periodical"> <em>Journal of Geophysical Research: Earth Surface</em>, Jun 2013 </div> <div class="periodical"> </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="https://doi.org/10.1002/jgrf.20041" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a> </div> <div class="abstract hidden"> <p>It has been proposed that debris flows cut bedrock valleys in steeplands worldwide, but field measurements needed to constrain mechanistic models of this process remain sparse due to the difficulty of instrumenting natural flows. Here we present and analyze measurements made using an automated sensor network, erosion bolts, and a 15.24 cm by 15.24 cm force plate installed in the bedrock channel floor of a steep catchment. These measurements allow us to quantify the distribution of basal forces from natural debris‐flow events that incised bedrock. Over the 4 year monitoring period, 11 debris‐flow events scoured the bedrock channel floor. No clear water flows were observed. Measurements of erosion bolts at the beginning and end of the study indicated that the bedrock channel floor was lowered by 36 to 64 mm. The basal force during these erosive debris‐flow events had a large‐magnitude (up to 21 kN, which was approximately 50 times larger than the concurrent time‐averaged mean force), high‐frequency (greater than 1 Hz) fluctuating component. We interpret these fluctuations as flow particles impacting the bed. The resulting variability in force magnitude increased linearly with the time‐averaged mean basal force. Probability density functions of basal normal forces were consistent with a generalized Pareto distribution, rather than the exponential distribution that is commonly found in experimental and simulated monodispersed granular flows and which has a lower probability of large forces. When the bed sediment thickness covering the force plate was greater than ∼ 20 times the median bed sediment grain size, no significant fluctuations about the time‐averaged mean force were measured, indicating that a thin layer of sediment (∼ 5 cm in the monitored cases) can effectively shield the subjacent bed from erosive impacts. Coarse‐grained granular surges and water‐rich, intersurge flow had very similar basal force distributions despite differences in appearance and bulk‐flow density. These results demonstrate that debris flows can have strong control on rates of steepland evolution and contribute to a foundation needed for modeling debris‐flow incision stochastically. , Key Points We measured 36-64 mm of bedrock incision by debris flows over four years Basal force variability was large (\textgreater+/-10x mean) and increased with mean force Granular surge fronts and watery tails had similar basal force distributions</p> </div> </div> </div> </li></ol> <h2 class="bibliography">2012</h2> <ol class="bibliography"><li> <div class="row"> <div class="col col-sm-2 abbr"> </div> <div id="mccoy_sediment_2012" class="col-sm-8"> <div class="title">Sediment entrainment by debris flows: In situ measurements from the headwaters of a steep catchment</div> <div class="author"> <em>S. W. McCoy</em>, J. W. Kean, J. A. Coe, and <span class="more-authors" title="click to view 3 more authors" onclick=" var element=this; element.setAttribute('title', ''); var more_authors_text=element.textContent == '3 more authors' ? 'G. E. Tucker, D. M. Staley, T. A. Wasklewicz' : '3 more authors'; var cursorPosition=0; var textAdder=setInterval(function(){ element.innerHTML = more_authors_text.substring(0, cursorPosition + 1); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">3 more authors</span> </div> <div class="periodical"> <em>Journal of Geophysical Research: Earth Surface</em>, Sep 2012 </div> <div class="periodical"> </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="https://doi.org/10.1029/2011JF002278" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a> </div> <div class="abstract hidden"> <p>Debris flows can dramatically increase their volume, and hence their destructive potential, by entraining sediment. Yet quantitative constraints on rates and mechanics of sediment entrainment by debris flows are limited. Using an in situ sensor network in the headwaters of a natural catchment we measured flow and bed properties during six erosive debris‐flow events. Despite similar flow properties and thicknesses of bed sediment entrained across all events, time‐averaged entrainment rates were significantly faster for bed sediment that was saturated prior to flow arrival compared with rates for sediment that was dry. Bed sediment was entrained from the sediment‐surface downward in a progressive fashion and occurred during passage of dense granular fronts as well as water‐rich, inter‐surge flow. En masse failure of bed sediment along the sediment‐bedrock interface was never observed. Large‐magnitude, high‐frequency fluctuations in total normal basal stress were dissipated within the upper 5 cm of bed sediment. Within this near surface layer, concomitant fluctuations in Coulomb frictional resistance are expected, irrespective of the influence of pore fluid pressure or fluctuations in shear stress. If the near‐surface sediment was wet as it was overridden by a flow, additional large‐magnitude, high‐frequency pore pressure fluctuations were measured in the near‐surface bed sediment. These pore pressure fluctuations propagated to depth at subsonic rates and in a diffusive manner. The depth to which large excess pore pressures propagated was typically less than 10 cm, but scaled as ( D / f i ) 0.5 , in which D is the hydraulic diffusivity and f i is the frequency of a particular pore pressure fluctuation. Shallow penetration depths of granular‐normal‐stress fluctuations and excess pore pressures demonstrate that only near‐surface bed sediment experiences the full dynamic range of effective‐stress fluctuations, and as a result, can be more easily entrained than deeper sediment. These data provide robust tests for mechanical models of entrainment and demonstrate that a debris flow over wet bed sediment will be larger than the same flow over dry bed sediment. , Key Points Entrainment rates were 2‐10x faster for wet channel sediment than dry sediment Flow induced near‐surface pore pressures facilitated progressive entrainment Entrainment occurred during dense granular surges and water‐rich debris floods</p> </div> </div> </div> </li></ol> <h2 class="bibliography">2010</h2> <ol class="bibliography"> <li> <div class="row"> <div class="col col-sm-2 abbr"> </div> <div id="mccoy_evolution_2010" class="col-sm-8"> <div class="title">Evolution of a natural debris flow: In situ measurements of flow dynamics, video imagery, and terrestrial laser scanning</div> <div class="author"> <em>Scott W. McCoy</em>, Jason W. Kean, Jeffrey A. Coe, and <span class="more-authors" title="click to view 3 more authors" onclick=" var element=this; element.setAttribute('title', ''); var more_authors_text=element.textContent == '3 more authors' ? 'Dennis M. Staley, Thad A. Wasklewicz, Gregory E. Tucker' : '3 more authors'; var cursorPosition=0; var textAdder=setInterval(function(){ element.innerHTML = more_authors_text.substring(0, cursorPosition + 1); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">3 more authors</span> </div> <div class="periodical"> <em>Geology</em>, 2010 </div> <div class="periodical"> </div> <div class="links"> </div> </div> </div> </li> <li> <div class="row"> <div class="col col-sm-2 abbr"> </div> <div id="coe_chalk_2010" class="col-sm-8"> <div class="title">Chalk Creek Valley: Colorado’s natural debris-flow laboratory</div> <div class="author"> Jeffrey A. Coe, Jason W. Kean, <em>Scott W. McCoy</em>, and <span class="more-authors" title="click to view 2 more authors" onclick=" var element=this; element.setAttribute('title', ''); var more_authors_text=element.textContent == '2 more authors' ? 'Dennis M. Staley, Thad A. Wasklewicz' : '2 more authors'; var cursorPosition=0; var textAdder=setInterval(function(){ element.innerHTML = more_authors_text.substring(0, cursorPosition + 1); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">2 more authors</span> </div> <div class="periodical"> <em>In Through the Generations: Geologic and Anthropogenic Field Excursions in the Rocky Mountains from Modern to Ancient</em>, 2010 </div> <div class="periodical"> </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="https://doi.org/10.1130/2010.0018(05)" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a> </div> <div class="abstract hidden"> <p>Recent debris ﬂow studies in Colorado indicate that the state is most susceptible to debris ﬂows that initiate from surface-water runoff that erodes and entrains hillslope and channel sediment. These runoff-initiated debris ﬂows grow in size by entraining sediment along travel paths, thereby increasing their destructive potential. Yet, the mechanics of initiation, erosion, and entrainment processes for runoffinitiated debris ﬂows are poorly understood. The steep, bedrock-dominated ﬂanks of the formerly glaciated Chalk Creek Valley near Nathrop, Colorado, generate an average of two runoff-initiated debris ﬂows per year, making the valley an ideal natural laboratory for debris-ﬂow research. This two-day ﬁeld trip to the Chalk Creek Valley will examine debris-ﬂow initiation areas, transport zones, deposits, and the impact of large pulses of debris-ﬂow sediment on the morphology of Chalk Creek. On the ﬁrst day, participants will hike into a particularly active basin at Chalk Cliffs where debris ﬂows are being monitored by the U.S. Geological Survey, the University of Colorado, and East Carolina University. The second day will focus on debris-ﬂow deposits in Chalk Creek and on recent debris ﬂows in and near the community of Alpine in the central part of the valley.</p> </div> </div> </div> </li> </ol> </div> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Scott W. McCoy. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "About",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-people",
+          title: "People",
+          description: "Graduate students and postdoctoral researchers I have advised. Current group members are in bold; for former members I note the dissertation or thesis and the first position taken after leaving the group.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/people/";
+          },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "What our group works on — current research areas and where we are headed next.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-publications",
+          title: "Publications",
+          description: "Journal articles and book chapters, with theses listed separately — in reverse chronological order.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-teaching",
+          title: "Teaching",
+          description: "Courses I teach in Geological Sciences & Engineering at the University of Nevada, Reno, with recent syllabi.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "A short summary of my background, honors, funding, and service. Download the full CV (PDF) for the complete record.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "post-a-post-with-plotly-js",
+        
+          title: "a post with plotly.js",
+        
+        description: "this is what included plotly.js code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/plotly/";
+          
+        },
+      },{id: "post-a-post-with-image-galleries",
+        
+          title: "a post with image galleries",
+        
+        description: "this is what included image galleries could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/photo-gallery/";
+          
+        },
+      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+        
+          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewbox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
+          
+        },
+      },{id: "post-a-post-with-tabs",
+        
+          title: "a post with tabs",
+        
+        description: "this is what included tabs in a post could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tabs/";
+          
+        },
+      },{id: "post-a-post-with-typograms",
+        
+          title: "a post with typograms",
+        
+        description: "this is what included typograms code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/typograms/";
+          
+        },
+      },{id: "post-a-post-that-can-be-cited",
+        
+          title: "a post that can be cited",
+        
+        description: "this is what a post that can be cited looks like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/post-citation/";
+          
+        },
+      },{id: "post-a-post-with-pseudo-code",
+        
+          title: "a post with pseudo code",
+        
+        description: "this is what included pseudo code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/pseudocode/";
+          
+        },
+      },{id: "post-a-post-with-code-diff",
+        
+          title: "a post with code diff",
+        
+        description: "this is how you can display code diffs",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/code-diff/";
+          
+        },
+      },{id: "post-a-post-with-advanced-image-components",
+        
+          title: "a post with advanced image components",
+        
+        description: "this is what advanced image components could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/advanced-images/";
+          
+        },
+      },{id: "post-a-post-with-vega-lite",
+        
+          title: "a post with vega lite",
+        
+        description: "this is what included vega lite code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/vega-lite/";
+          
+        },
+      },{id: "post-a-post-with-geojson",
+        
+          title: "a post with geojson",
+        
+        description: "this is what included geojson code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/geojson-map/";
+          
+        },
+      },{id: "post-a-post-with-echarts",
+        
+          title: "a post with echarts",
+        
+        description: "this is what included echarts code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/echarts/";
+          
+        },
+      },{id: "post-a-post-with-chart-js",
+        
+          title: "a post with chart.js",
+        
+        description: "this is what included chart.js code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/chartjs/";
+          
+        },
+      },{id: "post-a-post-with-tikzjax",
+        
+          title: "a post with TikZJax",
+        
+        description: "this is what included TikZ code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/tikzjax/";
+          
+        },
+      },{id: "post-a-post-with-bibliography",
+        
+          title: "a post with bibliography",
+        
+        description: "an example of a blog post with bibliography",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/post-bibliography/";
+          
+        },
+      },{id: "post-a-post-with-jupyter-notebook",
+        
+          title: "a post with jupyter notebook",
+        
+        description: "an example of a blog post with jupyter notebook",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/jupyter-notebook/";
+          
+        },
+      },{id: "post-a-post-with-custom-blockquotes",
+        
+          title: "a post with custom blockquotes",
+        
+        description: "an example of a blog post with custom blockquotes",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/custom-blockquotes/";
+          
+        },
+      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
+        
+          title: "a post with table of contents on a sidebar",
+        
+        description: "an example of a blog post with table of contents on a sidebar",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/sidebar-table-of-contents/";
+          
+        },
+      },{id: "post-a-post-with-audios",
+        
+          title: "a post with audios",
+        
+        description: "this is what included audios could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/audios/";
+          
+        },
+      },{id: "post-a-post-with-videos",
+        
+          title: "a post with videos",
+        
+        description: "this is what included videos could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/videos/";
+          
+        },
+      },{id: "post-displaying-beautiful-interactive-tables",
+        
+          title: "displaying beautiful interactive tables",
+        
+        description: "an example of how to use interactive tables in al-folio",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/tables/";
+          
+        },
+      },{id: "post-a-post-with-table-of-contents",
+        
+          title: "a post with table of contents",
+        
+        description: "an example of a blog post with table of contents",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/table-of-contents/";
+          
+        },
+      },{id: "post-a-post-with-giscus-comments",
+        
+          title: "a post with giscus comments",
+        
+        description: "an example of a blog post with giscus comments",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/giscus-comments/";
+          
+        },
+      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
+        
+          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewbox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
+          
+        },
+      },{id: "post-a-post-with-redirect",
+        
+          title: "a post with redirect",
+        
+        description: "you can also redirect to assets like pdf",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/assets/pdf/example_pdf.pdf";
+          
+        },
+      },{id: "post-a-post-with-diagrams",
+        
+          title: "a post with diagrams",
+        
+        description: "an example of a blog post with diagrams",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/diagrams/";
+          
+        },
+      },{id: "post-a-distill-style-blog-post",
+        
+          title: "a distill-style blog post",
+        
+        description: "an example of a distill-style blog post and main elements",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/distill/";
+          
+        },
+      },{id: "post-a-post-with-twitter",
+        
+          title: "a post with twitter",
+        
+        description: "an example of a blog post with twitter",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2020/twitter/";
+          
+        },
+      },{id: "post-a-post-with-disqus-comments",
+        
+          title: "a post with disqus comments",
+        
+        description: "an example of a blog post with disqus comments",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/disqus-comments/";
+          
+        },
+      },{id: "post-a-post-with-math",
+        
+          title: "a post with math",
+        
+        description: "an example of a blog post with some math",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/math/";
+          
+        },
+      },{id: "post-a-post-with-code",
+        
+          title: "a post with code",
+        
+        description: "an example of a blog post with some code",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/code/";
+          
+        },
+      },{id: "post-a-post-with-images",
+        
+          title: "a post with images",
+        
+        description: "this is what included images could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/images/";
+          
+        },
+      },{id: "post-a-post-with-formatting-and-links",
+        
+          title: "a post with formatting and links",
+        
+        description: "march & april, looking forward to summer",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/formatting-and-links/";
+          
+        },
+      },{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_godfather/";
+            },},{id: "news-a-simple-inline-announcement",
+          title: 'A simple inline announcement.',
+          description: "",
+          section: "News",},{id: "news-a-long-announcement-with-details",
+          title: 'A long announcement with details',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2/";
+            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
+          title: 'A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">',
+          description: "",
+          section: "News",},{id: "projects-cascading-earth-surface-hazards-and-their-feedbacks",
+          title: 'Cascading Earth-Surface Hazards and Their Feedbacks',
+          description: "When one disturbance primes or triggers the next.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cascading-hazards-feedbacks/";
+            },},{id: "projects-debris-flow-mechanics-and-steepland-sediment-transport",
+          title: 'Debris-Flow Mechanics and Steepland Sediment Transport',
+          description: "How debris flows start, grow, and exert force, from field sensors to predictive theory.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/debris-flow-mechanics/";
+            },},{id: "projects-glacial-lake-outburst-floods-and-cryospheric-hazards",
+          title: 'Glacial-Lake Outburst Floods and Cryospheric Hazards',
+          description: "Mapping and forecasting outburst floods from a changing cryosphere.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/glacial-lake-outburst-floods/";
+            },},{id: "projects-landscape-evolution-and-the-information-stored-in-topography",
+          title: 'Landscape Evolution and the Information Stored in Topography',
+          description: "Reading tectonic and climatic history from the shape of the land.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/landscape-evolution/";
+            },},{id: "projects-post-wildfire-debris-flow-hazards",
+          title: 'Post-Wildfire Debris-Flow Hazards',
+          description: "Forecasting the destructive debris flows that follow wildfire.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/post-wildfire-debris-flows/";
+            },},{id: "projects-translational-geomorphology-for-disturbed-and-managed-landscapes",
+          title: 'Translational Geomorphology for Disturbed and Managed Landscapes',
+          description: "Surface-process science for post-fire, mined, and water-resource systems.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/translational-geomorphology/";
+            },},{id: "teachings-data-science-fundamentals",
+          title: 'Data Science Fundamentals',
+          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/data-science-fundamentals/";
+            },},{id: "teachings-introduction-to-machine-learning",
+          title: 'Introduction to Machine Learning',
+          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/introduction-to-machine-learning/";
+            },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%73%63%6F%74%74%6D%63%63%6F%79@%75%6E%72.%65%64%75", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=jLzYjgcAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0002-1217-787X", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
