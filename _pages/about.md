@@ -42,7 +42,7 @@ Before joining UNR in 2014, I was a postdoctoral fellow with the Canadian Instit
 </style>
 
 <!-- ===========================================================================
-     Home hero banner. This <style> lives in about.md, so it loads ONLY on the home
+     Home hero banner. This style block lives in about.md, so it loads ONLY on the home
      page and affects no other page. The banner is a full-width hero sitting just below
      the (normal, themed) navbar, with the title and subtitle resting on top.
      Easy things to tweak: the image crop (background-position), the darkness of the
