@@ -40,3 +40,64 @@ Before joining UNR in 2014, I was a postdoctoral fellow with the Canadian Instit
     font-family: inherit;
   }
 </style>
+
+<!-- ===========================================================================
+     Home hero banner. This <style> lives in about.md, so it loads ONLY on the home
+     page and affects no other page. The banner is a full-width hero sitting just below
+     the (normal, themed) navbar, with the title and subtitle resting on top.
+     Easy things to tweak: the image crop (background-position), the darkness of the
+     scrim (the rgba alphas in ::before), and the hero height (the padding values).
+     =========================================================================== -->
+<style>
+  /* Avoid the ~1 scrollbar-width of horizontal overflow the full-bleed hero can cause. */
+  body.fixed-top-nav {
+    overflow-x: hidden;
+  }
+
+  /* Full-bleed banner holding the title + subtitle, sitting flush below the navbar.
+     Note: the main content container carries Tailwind's `.mt-5` (3rem !important, emitted
+     in @layer utilities). A layered !important beats an unlayered one regardless of
+     specificity, so an inline override of that margin can't win — instead we pull the
+     banner up by the same 3rem to close the gap and sit flush against the navbar. */
+  .post-header {
+    position: relative;
+    margin-top: -3rem; /* cancels the container's 3rem (.mt-5) top margin */
+    margin-left: calc(50% - 50vw); /* break out of the 930px column to full width */
+    margin-right: calc(50% - 50vw);
+    margin-bottom: 2.5rem;
+    padding: 3rem 1.5rem;
+    background-image: url("/assets/img/HimalayaSunriseBanner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  /* Dark scrim for legibility over the bright snow and varied tones. */
+  .post-header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.32) 45%, rgba(0, 0, 0, 0.45) 100%);
+    pointer-events: none;
+  }
+
+  /* Title + subtitle resting on top of the banner, in a centered, readable column. */
+  .post-header .post-title,
+  .post-header .desc {
+    position: relative; /* above the scrim */
+    z-index: 1;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.65);
+  }
+  .post-header .post-title {
+    margin-top: 0;
+  }
+  .post-header .desc {
+    margin-bottom: 0;
+  }
+</style>

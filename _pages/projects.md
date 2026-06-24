@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: What our group works on — current research areas and where we are headed next.
+description: What our group works on, including current research areas and where we are headed next.
 nav: true
 nav_order: 3
 horizontal: false

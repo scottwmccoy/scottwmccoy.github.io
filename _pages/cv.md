@@ -3,7 +3,7 @@ layout: page
 permalink: /cv/
 title: CV
 nav: true
-nav_order: 6
+nav_order: 8
 description: A short summary of my background, honors, funding, and service. Download the full CV (PDF) for the complete record.
 toc:
   sidebar: left
@@ -11,7 +11,7 @@ toc:
 
 <p><a href="/assets/pdf/McCoy_CV.pdf" target="_blank" rel="noopener noreferrer"><strong>⬇&nbsp; Download full CV (PDF)</strong></a></p>
 
-A short summary follows. For the complete record — all publications, funding, teaching, and service — download the full CV above. See also my [publications](/publications/) and my [research group](/people/).
+A short summary follows. For the complete record of all publications, funding, teaching, and service, download the full CV above. See also my [publications](/publications/) and my [research group](/people/).
 
 ## Education
 
