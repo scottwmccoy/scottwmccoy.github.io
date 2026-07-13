@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-03'
+  last_updated: '2026-07-13'
 papers:
   jLzYjgcAAAAJ:0EnyYjriUFMC:
     citations: 97
     title: Transience of the North American High Plains landscape and its impact on surface water
     year: '2018'
   jLzYjgcAAAAJ:2osOgNQ5qMEC:
-    citations: 28
+    citations: 29
     title: 'Observations of debris flows at Chalk Cliffs, Colorado, USA: part 2, changes in surface morphometry from terrestrial laser scanning in the summer of 2009'
     year: '2011'
   jLzYjgcAAAAJ:3fE2CSJIrl8C:
@@ -18,7 +18,7 @@ papers:
     title: 'Postfire hydrologic response along the Central California (USA) coast: insights for the emergency assessment of postfire debris-flow hazards'
     year: '2023'
   jLzYjgcAAAAJ:5nxA0vEk-isC:
-    citations: 19
+    citations: 20
     title: "Modeling the Shape and Evolution of Normal\u2010Fault Facets"
     year: '2020'
   jLzYjgcAAAAJ:7PzlFSSx8tAC:
@@ -42,7 +42,7 @@ papers:
     title: Improved prediction of postfire debris flows through rainfall anomaly maps
     year: '2025'
   jLzYjgcAAAAJ:IjCSPb-OGe4C:
-    citations: 330
+    citations: 332
     title: "Runoff\u2010generated debris flows: Observations and modeling of surge initiation, magnitude, and frequency"
     year: '2013'
   jLzYjgcAAAAJ:KlAtU1dfN6UC:
@@ -66,7 +66,7 @@ papers:
     title: Geomorphic signatures of the transient fluvial response to tilting
     year: '2020'
   jLzYjgcAAAAJ:QIV2ME_5wuYC:
-    citations: 15
+    citations: 16
     title: Seasonal to decadal dynamics of supraglacial lakes on debris-covered glaciers in the Khumbu region, Nepal
     year: '2024'
   jLzYjgcAAAAJ:Se3iqnhoufwC:
@@ -90,7 +90,7 @@ papers:
     title: Landscapes in the lab
     year: '2015'
   jLzYjgcAAAAJ:Wp0gIr-vW9MC:
-    citations: 33
+    citations: 36
     title: Unchanged frequency and decreasing magnitude of outbursts from ice-dammed lakes in Alaska
     year: '2023'
   jLzYjgcAAAAJ:Y0pCki6q_DkC:
@@ -106,7 +106,7 @@ papers:
     title: Can snow avalanches carve steep land channels? Evidence from channel morphology, deposit stratigraphy, and discrete element modeling
     year: '2009'
   jLzYjgcAAAAJ:ZeXyd9-uunAC:
-    citations: 42
+    citations: 47
     title: Cascading land surface hazards as a nexus in the Earth system
     year: '2025'
   jLzYjgcAAAAJ:Zph67rFs4hoC:
@@ -114,11 +114,11 @@ papers:
     title: Dam type and lake location characterize ice-marginal lake area change in Alaska and NW Canada between 1984 and 2019
     year: '2022'
   jLzYjgcAAAAJ:_FxGoFyzp5QC:
-    citations: 132
+    citations: 131
     title: Estimating rates of debris flow entrainment from ground vibrations
     year: '2015'
   jLzYjgcAAAAJ:_kc_bZDykSQC:
-    citations: 40
+    citations: 41
     title: "The Rainfall Intensity\u2010Duration Control of Debris Flows After Wildfire"
     year: '2023'
   jLzYjgcAAAAJ:aqlVkmm33-oC:
@@ -130,7 +130,7 @@ papers:
     title: 'Observations of debris flows at Chalk Cliffs, Colorado, USA: part 1, in-situ measurements of flow dynamics, tracer particle movement and video imagery from the summer of 2009'
     year: '2011'
   jLzYjgcAAAAJ:dhFuZR0502QC:
-    citations: 17
+    citations: 18
     title: Post-Wildfire Debris Flows
     year: '2024'
   jLzYjgcAAAAJ:hC7cP41nSMkC:
@@ -142,7 +142,7 @@ papers:
     title: Mapping Potentially Acid Generating Material on Abandoned Mine Lands Using Remotely Piloted Aerial Systems
     year: '2021'
   jLzYjgcAAAAJ:mVmsd5A6BfQC:
-    citations: 13
+    citations: 14
     title: Steady-state forms of channel profiles shaped by debris flow and fluvial processes
     year: '2023'
   jLzYjgcAAAAJ:qUcmZB5y_30C:
@@ -158,7 +158,7 @@ papers:
     title: "Debris\u2010flow process controls on steepland morphology in the San Gabriel Mountains, California"
     year: '2023'
   jLzYjgcAAAAJ:roLk4NBRz8UC:
-    citations: 140
+    citations: 141
     title: Geometric disequilibrium of river basins produces long-lived transient landscapes
     year: '2017'
   jLzYjgcAAAAJ:u-x6o8ySG0sC:
@@ -166,10 +166,10 @@ papers:
     title: "Geomorphic significance of postglacial bedrock scarps on normal\u2010fault footwalls"
     year: '2011'
   jLzYjgcAAAAJ:u5HHmVD_uO8C:
-    citations: 208
+    citations: 209
     title: 'Evolution of a natural debris flow: In situ measurements of flow dynamics, video imagery, and terrestrial laser scanning'
     year: '2010'
   jLzYjgcAAAAJ:zYLM7Y9cAGgC:
-    citations: 895
+    citations: 897
     title: Dynamic reorganization of river basins
     year: '2014'
