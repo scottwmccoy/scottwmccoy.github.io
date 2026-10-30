@@ -22,7 +22,7 @@ students into the landscape with the tools and techniques of my research group.
   <img src="{{ '/assets/img/Teaching/field-bedrock.jpg' | relative_url }}" alt="Examining a granite bedrock outcrop in the field" loading="lazy" />
 </div>
 <div class="caption">
-  Field labs and trips with students, from geomorphology and field methods to post-fire fieldwork around Lake Tahoe.
+  Field labs with students from geomorphology and field methods classes investigating glaciers, landslides, and active tectonics, generally within about an hour from the university.
 </div>
 
 <style>
