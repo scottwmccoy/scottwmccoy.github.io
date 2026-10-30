@@ -30,10 +30,6 @@ Graduate students and postdoctoral researchers I have advised. Current group mem
     <div class="person-info"><strong>Cody Russo</strong> — Geological Engineering (2024–present). Debris-flow hazards.</div>
   </div>
   <div class="person">
-    <img class="person-photo" src="{{ '/assets/img/people/sophie-rothman.jpg' | relative_url }}" alt="Sophie Rothman" loading="lazy" />
-    <div class="person-info">Sophie Rothman — Hydrological Sciences (2019–2024), co-advised. Dissertation: <em>Waterfall Erosion and Alteration of River Form.</em> → Postdoctoral researcher, France.</div>
-  </div>
-  <div class="person">
     <img class="person-photo" src="{{ '/assets/img/people/david-cavagnaro.jpg' | relative_url }}" alt="David Cavagnaro" loading="lazy" />
     <div class="person-info">David Cavagnaro — Geology (2019–2023). Dissertation: <em>Understanding post-wildfire debris-flow activity across climates: insights on initiation conditions and flow identification.</em> → Research Scientist, California Geological Survey.</div>
   </div>
