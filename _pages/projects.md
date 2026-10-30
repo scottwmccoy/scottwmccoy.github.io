@@ -9,6 +9,17 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
+<style>
+  /* uniform card thumbnails: crop every project image to the same 4:3 frame */
+  .projects .card-img-top {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    object-position: center;
+  }
+</style>
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
