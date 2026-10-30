@@ -22,7 +22,7 @@ Graduate students and postdoctoral researchers I have advised. Current group mem
 
 <div class="people" markdown="0">
   <div class="person">
-    <span class="person-photo person-photo-placeholder" aria-hidden="true">IL</span>
+    <img class="person-photo" src="{{ '/assets/img/people/isaac-leb.jpg' | relative_url }}" alt="Isaac Leb holding a charred animal skull in a burned forest" loading="lazy" />
     <div class="person-info"><strong>Isaac Leb</strong> — Geological Engineering (2026–present). Post-fire debris flows and erosion.</div>
   </div>
   <div class="person">
